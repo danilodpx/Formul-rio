@@ -1,0 +1,43 @@
+<form action="/action_page.php">
+    <label for="name">Nome:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="data">Data de Nascimento:</label><br>
+    <input type="date" id="data" name="data"><br>
+  </form>
+  <p>Gênero:</p>
+  <form>
+    <input type="radio" id="M" name="sexo" value="M">
+    <label for="M">M</label><br>
+    <input type="radio" id="F" name="sexo" value="F">
+    <label for="F">F</label><br>
+    <input type="radio" id="Prefiro não declarar" name="sexo" value="Prefiro não declarar">
+    <label for="Prefiro não declarar">Prefiro não declarar</label>
+  </form>
+  <p>Endereço:</p>
+  <form action="/action_page.php">
+    <label for="logradouro">Logradouro:</label><br>
+    <input type="text" id="logradouro" name="Logradouro"><br>
+  </form>
+  <form action="/action_page.php">
+    <label for="bairro">Bairro:</label><br>
+    <input type="text" id="bairro" name="Bairro"><br>
+  </form>
+  <form action="/action_page.php">
+    <label for="cidade">Cidade:</label><br>
+    <input type="text" id="cidade" name="Cidade"><br>
+  </form>
+  <label for="UF">UF:</label>
+
+<select id="UF">
+  <option value="DF">DF</option>
+  <option value="RJ">RJ</option>
+  <option value="SP">SP</option>
+  <option value="MG">MG</option>
+</select>
+<form action="/action_page.php">
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+  </form>
+
+  <input type="reset">
+  <input type="submit" value="Enviar">
